@@ -1,6 +1,5 @@
 package com.universidad.productos_web.service;
 
-import com.universidad.productosweb.model.Producto;
 import org.springframework.stereotype.Service;
 
 import java.util.*;
