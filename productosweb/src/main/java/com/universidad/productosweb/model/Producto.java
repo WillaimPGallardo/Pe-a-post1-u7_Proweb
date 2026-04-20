@@ -1,4 +1,4 @@
-package com.universidad.productos_web.model;
+package com.universidad.productosweb.model;
 
 public class Producto {
 

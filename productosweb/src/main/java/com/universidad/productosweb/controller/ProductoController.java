@@ -30,7 +30,7 @@ public class ProductoController {
     @GetMapping("/editar/{id}")
     public String editar(@PathVariable Long id, Model model) {
         Producto producto = servicio.buscarPorId(id)
-                .orElseThrow(() -> new RuntimeException("No encontrado"));
+                .orElseThrow(() -> new RuntimeException("Producto no encontrado"));
 
         model.addAttribute("producto", producto);
         model.addAttribute("accion", "Editar");
