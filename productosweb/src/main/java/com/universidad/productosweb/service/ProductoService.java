@@ -1,4 +1,4 @@
-package com.universidad.productos_web.service;
+package com.universidad.productosweb.service;
 
 import org.springframework.stereotype.Service;
 
